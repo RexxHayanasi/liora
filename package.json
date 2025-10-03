@@ -21,7 +21,7 @@
     },
     "dependencies": {
         "awesome-phonenumber": "^7.5.0",
-        "baileys": "npm:@@rexxhayanasi/elaina-bail",
+        "baileys": "npm:@rexxhayanasi/elaina-bail",
         "better-sqlite3": "^12.4.1",
         "canvafy": "^7.2.1",
         "chalk": "^5.6.2",
