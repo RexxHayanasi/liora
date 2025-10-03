@@ -86,7 +86,7 @@ END:VCARD`;
             },
             message: {
                 contactMessage: {
-                    displayName: "𝗟 𝗜 𝗢 𝗥 𝗔 - 𝗕 𝗢 𝗧",
+                    displayName: "L I O R A - M U L T I D E V I C E",
                     vcard,
                 },
             },
@@ -146,7 +146,7 @@ END:VCARD`;
     return await conn.sendMessage(
         m.chat,
         {
-            document: fs.readFileSync("../../src/liorathum.jpg"), // file lokal
+            document: fs.readFileSync("./src/liorathum.jpg"), // file lokal
             mimetype: "application/pdf",
             fileName: `🌸 ${global.config.watermark}`,
             fileLength: 0,
@@ -159,7 +159,7 @@ END:VCARD`;
                     title: global.config.author,
                     body: subtitle,
                     mediaType: 1,
-                    thumbnail: fs.readFileSync("../../src/liorathumb.jpg"),
+                    thumbnail: fs.readFileSync("./src/liorathumb.jpg"),
                     sourceUrl: global.config.website,
                     renderLargerThumbnail: true,
                         },
